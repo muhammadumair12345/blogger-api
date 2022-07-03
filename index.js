@@ -35,7 +35,7 @@ app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }));
 app.use(cors({ origin: true, credentials: true }));
 
 //Defining Port on which our page is load.
-const PORT = process.env.PORT || 'stackblitz.io';
+const PORT = process.env.PORT || 3000;
 
 //Connection Parameters Passing in mongoose.connect() method.
 const CONNECTION_PARAMS = {
